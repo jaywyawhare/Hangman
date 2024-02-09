@@ -1,3 +1,5 @@
+flask
+typing
 coverage
 pytest
 coveralls
