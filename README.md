@@ -24,13 +24,29 @@ This is a simple hangman game written in Python. It is a command line game. The 
 
 ## Usage
 
-1. Run the game
+- Normal usage :
+    1. Run the game
 
-    ```bash
-    python main.py
-    ```
+        ```bash
+        python main.py
+        ```
 
-2. The game will generate a random word and the player will have to guess the word.
+    2. The game will generate a random word and the player will have to guess the word.
+
+- API usage :
+    1. Run the API
+
+        ```bash
+        python api.py
+        ```
+
+    2. The API will be running on `http://localhost:5000/`. You can use the API to play the game or to get the word.
+
+## API Endpoints
+
+- `/word` [GET]: This endpoint will return a random word.
+- `/hangman` [GET]: This endpoint will return the current state of the game. It will return the word, the current state of the word, the attempts left, and the status of the game.
+- `/hangman` [POST]: This endpoint will take a letter as input and will return the updated state of the game.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
