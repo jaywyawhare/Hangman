@@ -1,5 +1,11 @@
 # Hangman
 
+<p align="center">
+    <a href="https://coveralls.io/repos/github/jaywyawhare/Hangman">
+        <img src="https://coveralls.io/repos/github/jaywyawhare/Hangman/badge.svg" alt="Coverage Status">
+    </a>
+</p>
+
 This is a simple hangman game written in Python. It is a command line game. The game is a simple word guessing game. The game will generate a random word, and the player will have to guess the word. The player will have a 5 attempts to guess the word. The game will continue until the player guesses the word or runs out of attempts.
 
 ## Installation
